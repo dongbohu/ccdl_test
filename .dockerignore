@@ -1,0 +1,7 @@
+*/volume
+*/test_volume
+.git
+dr_env
+nomad_dir
+workers-nomad.tar
+volumes_postgres
