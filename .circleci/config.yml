@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /home/circleci/data_refinery
+    working_directory: /home/circleci/ccdl_test
     machine: true
     steps:
       - checkout
@@ -35,4 +35,4 @@ jobs:
       #      no_output_timeout: 36000
 
       # dhu test: build docker base image
-      - run: docker build -t ccdl/data_refinery_worker_base -f workers/Dockerfile.base .
+      - run: docker build -t dongbohu/worker_base -f workers/Dockerfile.base .
