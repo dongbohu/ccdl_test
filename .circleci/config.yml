@@ -35,4 +35,4 @@ jobs:
       #      no_output_timeout: 36000
 
       # dhu test: build docker base image
-      - run: docker build -t dongbohu/worker_base -f workers/Dockerfile.base .
+      - run: .circleci/push_docker_img.sh
