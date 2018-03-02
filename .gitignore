@@ -104,3 +104,6 @@ dr_env/
 
 # PyCharm
 .idea
+
+# emacs
+*~
